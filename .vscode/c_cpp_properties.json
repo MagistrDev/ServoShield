@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "C:/MCU/toolchain/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+				"C:/MCU/toolchain/arm-none-eabi/include",
+				"C:/MCU/toolchain/arm-none-eabi/include/sys/",
+				"C:/MCU/toolchain/lib/**",
+
+                "${workspaceRoot}\\Drivers\\**",
+                "${workspaceRoot}\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include\\**",
+				"${workspaceRoot}\\Src\\**",
+                "${workspaceRoot}\\Inc\\**"
+            ],
+            "defines": [
+				"USE_HAL_DRIVER",
+				"STM32F103xx",
+				"M3",
+				"GCC_ARMCM3"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
