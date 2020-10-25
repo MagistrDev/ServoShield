@@ -1,1 +1,1 @@
-[{"node":"GPIOC","expanded":true,"format":0},{"node":"GPIOC.ODR","expanded":true,"format":0},{"node":"GPIOC.BSRR","expanded":true,"format":0}]
+[{"node":"CRC","expanded":true,"format":0},{"node":"GPIOC","expanded":true,"format":0},{"node":"GPIOC.ODR","expanded":true,"format":0},{"node":"WWDG.CR","expanded":true,"format":0},{"node":"WWDG.CFR","expanded":true,"format":0}]
