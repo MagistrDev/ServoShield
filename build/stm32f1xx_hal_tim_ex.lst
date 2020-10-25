@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   ==============================================================================
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     [..]
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****      (#) Initialize the TIM low level resources by implementing the following functions
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 2
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****          depending on the selected feature:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #ifdef HAL_TIM_MODULE_ENABLED
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 3
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 4
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 4
 
 
  147:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_COUNTER_MODE(htim->Init.CounterMode));
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCFastMode = TIM_OCFAST_DISABLE;
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCIdleState = TIM_OCIDLESTATE_RESET;
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCMode = TIM_OCMODE_PWM2;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 5
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 5
 
 
  204:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   OC_Config.OCNIdleState = TIM_OCNIDLESTATE_RESET;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Change the DMA burst operation state */
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->DMABurstState = HAL_DMA_BURST_STATE_RESET;
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 6
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 6
 
 
  261:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Change the TIM channels state */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef channel_2_state = TIM_CHANNEL_STATE_GET(htim, TIM_CHANNEL_2);
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_2_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 7
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 7
 
 
  318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Peripheral */
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 8
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 8
 
 
  375:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE(htim);
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 9
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 9
 
 
  432:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   assert_param(IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE(htim->Instance));
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM channel state */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 10
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 10
 
 
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if ((channel_1_state == HAL_TIM_CHANNEL_STATE_BUSY)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Return function status */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 11
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 11
 
 
  546:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   return HAL_OK;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** @endverbatim
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @{
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 12
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 12
 
 
  603:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         output.
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 13
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 13
 
 
  660:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   switch (Channel)
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 14
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 14
 
 
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         on the complementary output.
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM Output Compare handle
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 15
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 15
 
 
  774:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  828:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  829:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM complementary channel state */
  830:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 16
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 16
 
 
  831:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  885:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Set the DMA error callback */
  886:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferErrorCallback = TIM_DMAErrorCCxN ;
  887:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 17
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 17
 
 
  888:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Enable the DMA channel */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  942:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  943:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Capture compare channel N */
  944:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 18
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 18
 
 
  945:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  999:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 1000:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1001:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 19
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 19
 
 
 1002:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1056:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (+) Start the Complementary One Pulse and enable interrupts.
 1057:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     (+) Stop the Complementary One Pulse and disable interrupts.
 1058:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 20
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 20
 
 
 1059:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** @endverbatim
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1113:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
 1114:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @brief  Stops the PWM signal generation on the complementary output.
 1115:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 21
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 21
 
 
 1116:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1170:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1171:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   switch (Channel)
 1172:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 22
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 22
 
 
 1173:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1227:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *         complementary output.
 1228:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  htim TIM handle
 1229:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  Channel TIM Channel to be disabled
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 23
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 23
 
 
 1230:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1284:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
 1285:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1286:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the TIM complementary channel state */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 24
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 24
 
 
 1287:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_N_STATE_SET(htim, Channel, HAL_TIM_CHANNEL_STATE_READY);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1341:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       /* Set the DMA error callback */
 1343:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferErrorCallback = TIM_DMAErrorCCxN ;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 25
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 25
 
 
 1344:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1398:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
 1399:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1400:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the complementary PWM output  */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 26
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 26
 
 
 1401:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1455:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
 1456:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 1457:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 27
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 27
 
 
 1458:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1512:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @param  OutputChannel TIM Channel to be enabled
 1513:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1514:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 28
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 28
 
 
 1515:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1569:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1570:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable the Main Output */
 1571:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_MOE_DISABLE(htim);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 29
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 29
 
 
 1572:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1626:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1627:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Return function status */
 1628:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   return HAL_OK;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 30
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 30
 
 
 1629:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1683:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   [..]
 1684:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     This section provides functions allowing to:
 1685:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (+) Configure the commutation event in case of use of the Hall sensor interface.
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 31
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 31
 
 
 1686:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (+) Configure Output channels for OC and PWM mode.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1740:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 1741:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable Commutation Interrupt */
 1742:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE_IT(htim, TIM_IT_COM);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 32
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 32
 
 
 1743:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1797:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Disable Commutation DMA request */
 1798:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_COM);
 1799:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 33
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 33
 
 
 1800:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Commutation Interrupt */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1854:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Enable the Commutation DMA Request */
 1855:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the DMA Commutation Callback */
 1856:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferCpltCallback = TIMEx_DMACommutationCplt;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 34
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 34
 
 
 1857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferHalfCpltCallback = TIMEx_DMACommutationHalfCplt;
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1911:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   if (IS_TIM_SLAVE_INSTANCE(htim->Instance))
 1912:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
 1913:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     /* Reset the MSM Bit */
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 35
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 35
 
 
 1914:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     tmpsmcr &= ~TIM_SMCR_MSM;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1968:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKE, sBreakDeadTimeConfig->BreakState);
 1969:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKP, sBreakDeadTimeConfig->BreakPolarity);
 1970:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 36
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 36
 
 
 1971:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2025:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   UNUSED(htim);
 2026:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
 2027:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 37
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 37
 
 
 2028:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****             the HAL_TIMEx_CommutCallback could be implemented in the user file
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2082:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   * @retval HAL state
 2083:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   */
 2084:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** HAL_TIM_StateTypeDef HAL_TIMEx_HallSensor_GetState(TIM_HandleTypeDef *htim)
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 38
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 38
 
 
 2085:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** {
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2139:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
 2140:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
 2141:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 39
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 39
 
 
 2142:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** /**
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2196:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
 2197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
 2198:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   else if (hdma == htim->hdma[TIM_DMA_ID_CC4])
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 40
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 40
 
 
 2199:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2253:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ErrorCallback(htim);
 2254:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** #endif /* USE_HAL_TIM_REGISTER_CALLBACKS */
 2255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 41
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 41
 
 
 2256:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Channel = HAL_TIM_ACTIVE_CHANNEL_CLEARED;
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
   55 0016 8A40     		lsls	r2, r2, r1
   56              	.LVL3:
   57              		.loc 1 2281 14 view .LVU11
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 42
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 42
 
 
   58 0018 1343     		orrs	r3, r3, r2
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2235:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  104              		.loc 1 2235 11 view .LVU23
  105 000c 8342     		cmp	r3, r0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 43
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 43
 
 
  106 000e 0DD0     		beq	.L9
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  145              	.L10:
 2242:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_3, HAL_TIM_CHANNEL_STATE_READY);
  146              		.loc 1 2242 5 view .LVU39
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 44
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 44
 
 
 2242:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     TIM_CHANNEL_N_STATE_SET(htim, TIM_CHANNEL_3, HAL_TIM_CHANNEL_STATE_READY);
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  191 000c 8342     		cmp	r3, r0
  192 000e 14D0     		beq	.L18
 2189:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 45
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 45
 
 
  193              		.loc 1 2189 8 is_stmt 1 view .LVU52
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2177:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
  231              		.loc 1 2177 7 is_stmt 1 view .LVU69
  232 0032 0123     		movs	r3, #1
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 46
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 46
 
 
  233 0034 84F84230 		strb	r3, [r4, #66]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  271              		.loc 1 2202 19 is_stmt 0 view .LVU85
  272 0062 8369     		ldr	r3, [r0, #24]
 2202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 47
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 47
 
 
  273              		.loc 1 2202 8 view .LVU86
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  323 0000 0028     		cmp	r0, #0
  324 0002 65D0     		beq	.L25
  136:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_OC_InitTypeDef OC_Config;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 48
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 48
 
 
  325              		.loc 1 136 1 view .LVU95
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  365 0028 3168     		ldr	r1, [r6]
  366 002a 2068     		ldr	r0, [r4]
  367 002c FFF7FEFF 		bl	TIM_TI1_SetConfig
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 49
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 49
 
 
  368              	.LVL19:
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  405 005c 43F04003 		orr	r3, r3, #64
  406 0060 9360     		str	r3, [r2, #8]
  197:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->Instance->SMCR |= TIM_SLAVEMODE_RESET;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 50
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 50
 
 
  407              		.loc 1 197 3 is_stmt 1 view .LVU127
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  442              		.loc 1 207 28 is_stmt 0 view .LVU146
  443 0086 F368     		ldr	r3, [r6, #12]
  207:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 51
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 51
 
 
  444              		.loc 1 207 19 view .LVU147
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  481              		.loc 1 228 10 is_stmt 0 view .LVU164
  482 00c0 2846     		mov	r0, r5
  229:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 52
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 52
 
 
  483              		.loc 1 229 1 view .LVU165
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  532              		@ frame_needed = 0, uses_anonymous_args = 0
  533              		@ link register save eliminated.
  299:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 53
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 53
 
 
  534              		.loc 1 299 3 view .LVU173
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  580 0020 1A68     		ldr	r2, [r3]
  581 0022 22F00102 		bic	r2, r2, #1
  582 0026 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 54
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 54
 
 
  583              	.L33:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  624              	.LVL29:
  625              	.LFB69:
  312:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 55
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 55
 
 
  626              		.loc 1 312 1 is_stmt 1 view -0
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  664              		.loc 1 324 7 view .LVU215
  665 001e 012A     		cmp	r2, #1
  666 0020 35D1     		bne	.L40
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 56
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 56
 
 
  325:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (complementary_channel_2_state != HAL_TIM_CHANNEL_STATE_READY))
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  342:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  706              		.loc 1 342 6 view .LVU231
  707 004c 134A     		ldr	r2, .L46
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 57
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 57
 
 
  708 004e 9342     		cmp	r3, r2
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  749              	.L39:
  328:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
  750              		.loc 1 328 12 view .LVU245
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 58
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 58
 
 
  751 008a 0120     		movs	r0, #1
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  799              	.LCFI11:
  800              		.cfi_def_cfa_offset 8
  801              		.cfi_offset 4, -8
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 59
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 59
 
 
  802              		.cfi_offset 14, -4
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  384:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  843              		.loc 1 384 1 view .LVU267
  844              		.cfi_endproc
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 60
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 60
 
 
  845              	.LFE70:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  403:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       || (channel_2_state != HAL_TIM_CHANNEL_STATE_READY)
  888              		.loc 1 403 6 is_stmt 0 view .LVU281
  889 0014 012B     		cmp	r3, #1
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 61
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 61
 
 
  890 0016 3ED1     		bne	.L55
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  929              		.loc 1 418 3 is_stmt 0 view .LVU296
  930 0044 D368     		ldr	r3, [r2, #12]
  931 0046 43F00203 		orr	r3, r3, #2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 62
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 62
 
 
  932 004a D360     		str	r3, [r2, #12]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  972              		.loc 1 427 13 view .LVU310
  973 0082 02F00702 		and	r2, r2, #7
  974              	.LVL66:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 63
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 63
 
 
  428:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1017              	.L62:
  1018 00a8 002C0140 		.word	1073818624
  1019              		.cfi_endproc
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 64
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 64
 
 
  1020              	.LFE71:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1067 0026 40F24442 		movw	r2, #1092
  1068 002a 1142     		tst	r1, r2
  1069 002c 03D1     		bne	.L65
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 65
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 65
 
 
  460:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1115              		.loc 1 481 3 is_stmt 1 view .LVU342
  482:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
  1116              		.loc 1 482 3 view .LVU343
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 66
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 66
 
 
  482:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef complementary_channel_1_state = TIM_CHANNEL_N_STATE_GET(htim, TIM_CHA
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1156 002e 80F84230 		strb	r3, [r0, #66]
  514:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1157              		.loc 1 514 3 view .LVU359
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 67
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 67
 
 
  1158 0032 0122     		movs	r2, #1
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  523:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1197              		.loc 1 523 6 view .LVU375
  1198 005c 0346     		mov	r3, r0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 68
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 68
 
 
  1199 005e 78BB     		cbnz	r0, .L77
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  534:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  1241              		.loc 1 534 13 view .LVU388
  1242 009c 01F00701 		and	r1, r1, #7
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 69
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 69
 
 
  1243              	.LVL90:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1287 00cc 00000000 		.word	TIM_DMAError
  1288 00d0 002C0140 		.word	1073818624
  1289              		.cfi_endproc
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 70
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 70
 
 
  1290              	.LFE73:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1336 0020 196A     		ldr	r1, [r3, #32]
  1337 0022 41F21112 		movw	r2, #4369
  1338 0026 1142     		tst	r1, r2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 71
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 71
 
 
  1339 0028 08D1     		bne	.L83
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1383 0002 71BB     		cbnz	r1, .L86
  623:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1384              		.loc 1 623 7 discriminator 1 view .LVU421
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 72
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 72
 
 
  1385 0004 90F84230 		ldrb	r3, [r0, #66]	@ zero_extendqisi2
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1427              		.loc 1 638 3 view .LVU433
  638:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1428              		.loc 1 638 7 is_stmt 0 view .LVU434
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 73
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 73
 
 
  1429 0038 2368     		ldr	r3, [r4]
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  623:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1473              		.loc 1 623 7 discriminator 4 view .LVU445
  1474 007a 90F84330 		ldrb	r3, [r0, #67]	@ zero_extendqisi2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 74
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 74
 
 
  1475 007e DBB2     		uxtb	r3, r3
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1519 00ba 9A68     		ldr	r2, [r3, #8]
  640:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  1520              		.loc 1 640 13 view .LVU456
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 75
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 75
 
 
  1521 00bc 02F00702 		and	r2, r2, #7
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1567              		.global	HAL_TIMEx_OCN_Stop
  1568              		.syntax unified
  1569              		.thumb
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 76
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 76
 
 
  1570              		.thumb_func
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1615              		.loc 1 678 3 view .LVU475
  678:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1616              		.loc 1 678 3 view .LVU476
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 77
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 77
 
 
  1617 002c 2368     		ldr	r3, [r4]
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1660              		.loc 1 681 3 discriminator 6 view .LVU487
  1661 006e 0123     		movs	r3, #1
  1662 0070 84F84430 		strb	r3, [r4, #68]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 78
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 78
 
 
  1663 0074 EDE7     		b	.L113
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  712:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  1709              		.loc 1 712 3 is_stmt 0 discriminator 1 view .LVU498
  1710 001e 0222     		movs	r2, #2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 79
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 79
 
 
  1711 0020 80F84220 		strb	r2, [r0, #66]
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  752:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  1754              		.loc 1 752 7 discriminator 2 view .LVU510
  1755 005e A2F59432 		sub	r2, r2, #75776
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 80
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 80
 
 
  1756 0062 9342     		cmp	r3, r2
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1800 00a2 90F84420 		ldrb	r2, [r0, #68]	@ zero_extendqisi2
  1801 00a6 D2B2     		uxtb	r2, r2
  706:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 81
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 81
 
 
  1802              		.loc 1 706 46 discriminator 7 view .LVU521
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  726:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  1847              		.loc 1 726 7 is_stmt 0 view .LVU531
  1848 00e0 CA68     		ldr	r2, [r1, #12]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 82
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 82
 
 
  1849 00e2 42F00402 		orr	r2, r2, #4
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1890              		.cfi_def_cfa_offset 0
  1891              		.cfi_restore 4
  1892              		.cfi_restore 14
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 83
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 83
 
 
  708:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   }
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1941              		.loc 1 786 3 view .LVU552
  1942 0006 0429     		cmp	r1, #4
  1943 0008 3CD0     		beq	.L148
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 84
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 84
 
 
  1944 000a 0829     		cmp	r1, #8
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  1985 003c 196A     		ldr	r1, [r3, #32]
  1986 003e 40F24442 		movw	r2, #1092
  1987 0042 1142     		tst	r1, r2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 85
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 85
 
 
  1988 0044 03D1     		bne	.L152
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  798:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  2031              		.loc 1 798 7 view .LVU577
  2032 0084 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 86
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 86
 
 
  2033 0086 D368     		ldr	r3, [r2, #12]
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2081              	.LFB79:
  850:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
  2082              		.loc 1 850 1 is_stmt 1 view -0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 87
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 87
 
 
  2083              		.cfi_startproc
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2124 0028 14BF     		ite	ne
  2125 002a 0021     		movne	r1, #0
  2126 002c 0121     		moveq	r1, #1
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 88
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 88
 
 
  2127              	.L169:
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2169              		.loc 1 950 7 is_stmt 0 view .LVU611
  2170 006a 2B68     		ldr	r3, [r5]
  950:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 89
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 89
 
 
  2171              		.loc 1 950 6 view .LVU612
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2214              		.loc 1 857 46 discriminator 4 view .LVU623
  2215 00ba 022D     		cmp	r5, #2
  2216 00bc 14BF     		ite	ne
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 90
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 90
 
 
  2217 00be 0025     		movne	r5, #0
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2261              	.LVL150:
  2262              	.L195:
  861:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 91
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 91
 
 
  2263              		.loc 1 861 12 discriminator 7 view .LVU634
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  882:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  2307              		.loc 1 882 7 is_stmt 1 view .LVU645
  882:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 92
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 92
 
 
  2308              		.loc 1 882 17 is_stmt 0 view .LVU646
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2347              		.loc 1 902 7 view .LVU661
  902:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  2348              		.loc 1 902 17 is_stmt 0 view .LVU662
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 93
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 93
 
 
  2349 0160 826A     		ldr	r2, [r0, #40]
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2387              		.loc 1 922 17 is_stmt 0 view .LVU678
  2388 018a C26A     		ldr	r2, [r0, #44]
  922:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC3]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 94
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 94
 
 
  2389              		.loc 1 922 52 view .LVU679
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2427              		.loc 1 952 13 view .LVU695
  2428 01b6 02F00702 		and	r2, r2, #7
  2429              	.LVL163:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 95
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 95
 
 
  953:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     {
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2472              	.L188:
  964:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
  2473              		.loc 1 964 10 view .LVU708
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 96
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 96
 
 
  2474 01de 0020     		movs	r0, #0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2525              	.LVL173:
 1017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2526              		.loc 1 1017 3 view .LVU714
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 97
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 97
 
 
 1017:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2570              	.LVL174:
  2571              	.L211:
  988:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (void)HAL_DMA_Abort_IT(htim->hdma[TIM_DMA_ID_CC1]);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 98
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 98
 
 
  2572              		.loc 1 988 7 is_stmt 1 view .LVU726
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2613              		.loc 1 1005 13 view .LVU739
  2614 0092 FFF7FEFF 		bl	HAL_DMA_Abort_IT
  2615              	.LVL182:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 99
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 99
 
 
 1006:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     }
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2661 0000 0A46     		mov	r2, r1
  2662 0002 71BB     		cbnz	r1, .L215
 1081:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 100
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 100
 
 
  2663              		.loc 1 1081 7 discriminator 1 view .LVU751
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1096:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2706              		.loc 1 1096 3 view .LVU763
 1096:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 101
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 101
 
 
  2707              		.loc 1 1096 7 is_stmt 0 view .LVU764
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2751              	.L232:
 1081:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  2752              		.loc 1 1081 7 discriminator 4 view .LVU775
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 102
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 102
 
 
  2753 007a 90F84330 		ldrb	r3, [r0, #67]	@ zero_extendqisi2
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2797              		.loc 1 1098 29 is_stmt 0 view .LVU785
  2798 00ba 9A68     		ldr	r2, [r3, #8]
 1098:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 103
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 103
 
 
  2799              		.loc 1 1098 13 view .LVU786
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2845              		.align	1
  2846              		.global	HAL_TIMEx_PWMN_Stop
  2847              		.syntax unified
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 104
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 104
 
 
  2848              		.thumb
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1135:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2894              		.loc 1 1135 3 view .LVU805
 1135:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 105
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 105
 
 
  2895              		.loc 1 1135 3 view .LVU806
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1138:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2939              		.loc 1 1138 3 discriminator 6 view .LVU817
  2940 006e 0123     		movs	r3, #1
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 106
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 106
 
 
  2941 0070 84F84430 		strb	r3, [r4, #68]
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  2987 001c 49D1     		bne	.L254
 1169:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  2988              		.loc 1 1169 3 is_stmt 0 discriminator 1 view .LVU828
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 107
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 107
 
 
  2989 001e 0222     		movs	r2, #2
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3032 005c 4BD0     		beq	.L261
 1208:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3033              		.loc 1 1208 7 discriminator 2 view .LVU840
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 108
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 108
 
 
  3034 005e A2F59432 		sub	r2, r2, #75776
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3078              		.loc 1 1163 7 discriminator 7 view .LVU850
  3079 00a2 90F84420 		ldrb	r2, [r0, #68]	@ zero_extendqisi2
  3080 00a6 D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 109
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 109
 
 
 1163:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3125              	.LVL207:
 1183:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  3126              		.loc 1 1183 7 is_stmt 0 view .LVU861
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 110
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 110
 
 
  3127 00e0 CA68     		ldr	r2, [r1, #12]
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3168              	.LCFI39:
  3169              		.cfi_def_cfa_offset 0
  3170              		.cfi_restore 4
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 111
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 111
 
 
  3171              		.cfi_restore 14
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1243:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3220              		.loc 1 1243 3 view .LVU882
  3221 0006 0429     		cmp	r1, #4
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 112
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 112
 
 
  3222 0008 3CD0     		beq	.L277
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3263              		.loc 1 1281 3 is_stmt 1 discriminator 1 view .LVU895
  3264 003c 196A     		ldr	r1, [r3, #32]
  3265 003e 40F24442 		movw	r2, #1092
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 113
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 113
 
 
  3266 0042 1142     		tst	r1, r2
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3309              	.L277:
 1255:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  3310              		.loc 1 1255 7 view .LVU907
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 114
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 114
 
 
  3311 0084 0268     		ldr	r2, [r0]
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3359              	.LVL224:
  3360              	.LFB85:
 1307:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   uint32_t tmpsmcr;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 115
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 115
 
 
  3361              		.loc 1 1307 1 is_stmt 1 view -0
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3402 0026 0129     		cmp	r1, #1
  3403 0028 14BF     		ite	ne
  3404 002a 0021     		movne	r1, #0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 116
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 116
 
 
  3405 002c 0121     		moveq	r1, #1
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1407:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3448              		.loc 1 1407 7 is_stmt 0 view .LVU941
  3449 006a 2B68     		ldr	r3, [r5]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 117
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 117
 
 
 1407:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1314:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  3493              		.loc 1 1314 46 discriminator 4 view .LVU953
  3494 00ba 022D     		cmp	r5, #2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 118
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 118
 
 
  3495 00bc 14BF     		ite	ne
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3539 00fa 98E7     		b	.L298
  3540              	.LVL233:
  3541              	.L324:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 119
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 119
 
 
 1318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3585              	.L320:
 1339:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  3586              		.loc 1 1339 7 is_stmt 1 view .LVU975
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 120
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 120
 
 
 1339:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC1]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1359:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  3626              		.loc 1 1359 7 view .LVU991
 1359:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC2]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 121
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 121
 
 
  3627              		.loc 1 1359 17 is_stmt 0 view .LVU992
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1379:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC3]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
  3666              		.loc 1 1379 17 is_stmt 0 view .LVU1008
  3667 018a C26A     		ldr	r2, [r0, #44]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 122
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 122
 
 
 1379:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC3]->XferHalfCpltCallback = TIM_DMADelayPulseHalfCplt;
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1409:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****     if (!IS_TIM_SLAVEMODE_TRIGGER_ENABLED(tmpsmcr))
  3706              		.loc 1 1409 13 view .LVU1025
  3707 01b6 02F00702 		and	r2, r2, #7
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 123
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 123
 
 
  3708              	.LVL246:
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3750              	.LVL253:
  3751              	.L317:
 1421:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** }
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 124
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 124
 
 
  3752              		.loc 1 1421 10 view .LVU1038
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3803 0016 FFF7FEFF 		bl	TIM_CCxNChannelCmd
  3804              	.LVL256:
 1474:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 125
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 125
 
 
  3805              		.loc 1 1474 3 view .LVU1044
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3848 0060 38BD     		pop	{r3, r4, r5, pc}
  3849              	.LVL257:
  3850              	.L340:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 126
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 126
 
 
 1445:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (void)HAL_DMA_Abort_IT(htim->hdma[TIM_DMA_ID_CC1]);
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1462:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       break;
  3892              		.loc 1 1462 13 view .LVU1069
  3893 0092 FFF7FEFF 		bl	HAL_DMA_Abort_IT
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 127
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 127
 
 
  3894              	.LVL265:
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  3942              		.cfi_offset 5, -8
  3943              		.cfi_offset 14, -4
 1520:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   HAL_TIM_ChannelStateTypeDef input_channel_state = TIM_CHANNEL_STATE_GET(htim, input_channel);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 128
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 128
 
 
  3944              		.loc 1 1520 3 is_stmt 1 view .LVU1078
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1536:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  3983              		.loc 1 1536 3 is_stmt 1 view .LVU1094
  3984 0026 002D     		cmp	r5, #0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 129
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 129
 
 
  3985 0028 39D1     		bne	.L355
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4026 005a 0425     		movs	r5, #4
  4027 005c D7E7     		b	.L345
  4028              	.LVL278:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 130
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 130
 
 
  4029              	.L346:
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4072              	.LVL283:
  4073              	.L364:
 1535:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_BUSY);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 131
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 131
 
 
  4074              		.loc 1 1535 3 discriminator 6 view .LVU1119
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4121              		.loc 1 1560 1 is_stmt 1 view -0
  4122              		.cfi_startproc
  4123              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 132
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 132
 
 
  4124              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4167 002c 196A     		ldr	r1, [r3, #32]
  4168 002e 40F24442 		movw	r2, #1092
  4169 0032 1142     		tst	r1, r2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 133
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 133
 
 
  4170 0034 03D1     		bne	.L368
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4212 0070 0026     		movs	r6, #0
  4213 0072 CBE7     		b	.L367
  4214              	.LVL296:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 134
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 134
 
 
  4215              	.L370:
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4262              		.loc 1 1595 1 is_stmt 1 view -0
  4263              		.cfi_startproc
  4264              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 135
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 135
 
 
  4265              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4305 001e 0129     		cmp	r1, #1
  4306 0020 55D1     		bne	.L398
 1611:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_BUSY);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 136
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 136
 
 
  4307              		.loc 1 1611 3 is_stmt 1 view .LVU1175
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4349 0058 2146     		mov	r1, r4
  4350 005a 2868     		ldr	r0, [r5]
  4351 005c FFF7FEFF 		bl	TIM_CCxChannelCmd
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 137
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 137
 
 
  4352              	.LVL307:
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4394 0096 C0E7     		b	.L386
  4395              	.LVL311:
  4396              	.L390:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 138
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 138
 
 
 1611:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_BUSY);
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4439              		.loc 1 1607 12 view .LVU1211
  4440 00ca 0120     		movs	r0, #1
  4441              	.LVL318:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 139
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 139
 
 
  4442              	.L389:
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4489 000c 2268     		ldr	r2, [r4]
  4490 000e D368     		ldr	r3, [r2, #12]
  4491 0010 23F00203 		bic	r3, r3, #2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 140
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 140
 
 
  4492 0014 D360     		str	r3, [r2, #12]
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4535 0056 41F21112 		movw	r2, #4369
  4536 005a 1142     		tst	r1, r2
  4537 005c 08D1     		bne	.L408
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 141
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 141
 
 
 1662:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4580 0096 EFE7     		b	.L410
  4581              	.L418:
 1665:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   TIM_CHANNEL_STATE_SET(htim, input_channel, HAL_TIM_CHANNEL_STATE_READY);
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 142
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 142
 
 
  4582              		.loc 1 1665 3 discriminator 3 view .LVU1244
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1720:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Check the parameters */
  4629              		.loc 1 1720 1 is_stmt 0 discriminator 2 view .LVU1254
  4630 0008 10B4     		push	{r4}
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 143
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 143
 
 
  4631              	.LCFI48:
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1736:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Select the Commutation event source */
  4670              		.loc 1 1736 23 view .LVU1270
  4671 0032 5968     		ldr	r1, [r3, #4]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 144
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 144
 
 
  4672 0034 41F00101 		orr	r1, r1, #1
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4712              		.cfi_def_cfa_offset 0
  4713 006a 7047     		bx	lr
  4714              	.LVL333:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 145
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 145
 
 
  4715              	.L425:
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4759 0012 1029     		cmp	r1, #16
  4760 0014 03D0     		beq	.L432
 1783:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****       (InputTrigger == TIM_TS_ITR2) || (InputTrigger == TIM_TS_ITR3))
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 146
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 146
 
 
  4761              		.loc 1 1783 70 discriminator 2 view .LVU1297
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1795:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4800              		.loc 1 1795 7 is_stmt 0 view .LVU1313
  4801 0044 0168     		ldr	r1, [r0]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 147
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 147
 
 
 1795:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4846              		.thumb
  4847              		.thumb_func
  4848              		.fpu softvfp
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 148
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 148
 
 
  4850              	HAL_TIMEx_ConfigCommutEvent_DMA:
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4889              		.loc 1 1844 26 view .LVU1339
  4890 0020 9C68     		ldr	r4, [r3, #8]
  4891 0022 24F07004 		bic	r4, r4, #112
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 149
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 149
 
 
  4892 0026 9C60     		str	r4, [r3, #8]
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1856:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferHalfCpltCallback = TIMEx_DMACommutationHalfCplt;
  4930              		.loc 1 1856 56 view .LVU1356
  4931 0050 9A62     		str	r2, [r3, #40]
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 150
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 150
 
 
 1857:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   /* Set the DMA error callback */
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  4972              	.LVL346:
 1870:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  4973              		.loc 1 1870 1 view .LVU1371
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 151
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 151
 
 
  4974 0080 7047     		bx	lr
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5019              		.loc 1 1895 3 discriminator 2 view .LVU1382
 1895:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5020              		.loc 1 1895 15 is_stmt 0 discriminator 2 view .LVU1383
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 152
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 152
 
 
  5021 0010 0223     		movs	r3, #2
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 1911:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   {
  5058              		.loc 1 1911 7 discriminator 2 view .LVU1401
  5059 0034 A2F59432 		sub	r2, r2, #75776
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 153
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 153
 
 
  5060 0038 9342     		cmp	r3, r2
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5099              	.LVL356:
 1928:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5100              		.loc 1 1928 1 view .LVU1417
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 154
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 154
 
 
  5101 005e 7047     		bx	lr
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5143 0000 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
  5144 0004 012B     		cmp	r3, #1
  5145 0006 22D0     		beq	.L463
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 155
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 155
 
 
 1958:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5186              		.loc 1 1969 3 is_stmt 1 discriminator 2 view .LVU1445
  5187 0030 23F40053 		bic	r3, r3, #8192
  5188              	.LVL372:
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 156
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 156
 
 
 1969:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_AOE, sBreakDeadTimeConfig->AutomaticOutput);
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5227              		.loc 1 1979 1 view .LVU1461
  5228 0050 7047     		bx	lr
  5229              		.cfi_endproc
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 157
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 157
 
 
  5230              	.LFE95:
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5279              	.LFE97:
  5281              		.section	.text.TIMEx_DMACommutationCplt,"ax",%progbits
  5282              		.align	1
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 158
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 158
 
 
  5283              		.global	TIMEx_DMACommutationCplt
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5331              		@ args = 0, pretend = 0, frame = 0
  5332              		@ frame_needed = 0, uses_anonymous_args = 0
  5333              		@ link register save eliminated.
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 159
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 159
 
 
 2039:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5381              		.thumb
  5382              		.thumb_func
  5383              		.fpu softvfp
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 160
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 160
 
 
  5385              	HAL_TIMEx_BreakCallback:
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5435              		.loc 1 2100 1 is_stmt 1 view -0
  5436              		.cfi_startproc
  5437              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 161
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 161
 
 
  5438              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
 2106:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c **** 
  5478              		.loc 1 2106 19 discriminator 7 view .LVU1512
  5479 0022 90F84400 		ldrb	r0, [r0, #68]	@ zero_extendqisi2
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 162
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 162
 
 
  5480              	.LVL404:
@@ -9681,109 +9681,109 @@ ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 1
  5497              		.file 10 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
  5498              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h"
  5499              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 163
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 163
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f1xx_hal_tim_ex.c
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:16     .text.TIM_CCxNChannelCmd:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:23     .text.TIM_CCxNChannelCmd:0000000000000000 TIM_CCxNChannelCmd
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:72     .text.TIM_DMAErrorCCxN:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:78     .text.TIM_DMAErrorCCxN:0000000000000000 TIM_DMAErrorCCxN
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:158    .text.TIM_DMADelayPulseNCplt:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:164    .text.TIM_DMADelayPulseNCplt:0000000000000000 TIM_DMADelayPulseNCplt
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:284    .text.HAL_TIMEx_HallSensor_MspInit:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:291    .text.HAL_TIMEx_HallSensor_MspInit:0000000000000000 HAL_TIMEx_HallSensor_MspInit
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:306    .text.HAL_TIMEx_HallSensor_Init:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:313    .text.HAL_TIMEx_HallSensor_Init:0000000000000000 HAL_TIMEx_HallSensor_Init
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:519    .text.HAL_TIMEx_HallSensor_MspDeInit:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:526    .text.HAL_TIMEx_HallSensor_MspDeInit:0000000000000000 HAL_TIMEx_HallSensor_MspDeInit
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:541    .text.HAL_TIMEx_HallSensor_DeInit:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:548    .text.HAL_TIMEx_HallSensor_DeInit:0000000000000000 HAL_TIMEx_HallSensor_DeInit
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:616    .text.HAL_TIMEx_HallSensor_Start:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:623    .text.HAL_TIMEx_HallSensor_Start:0000000000000000 HAL_TIMEx_HallSensor_Start
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:778    .text.HAL_TIMEx_HallSensor_Start:000000000000009c $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:783    .text.HAL_TIMEx_HallSensor_Stop:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:790    .text.HAL_TIMEx_HallSensor_Stop:0000000000000000 HAL_TIMEx_HallSensor_Stop
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:848    .text.HAL_TIMEx_HallSensor_Start_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:855    .text.HAL_TIMEx_HallSensor_Start_IT:0000000000000000 HAL_TIMEx_HallSensor_Start_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1018   .text.HAL_TIMEx_HallSensor_Start_IT:00000000000000a8 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1023   .text.HAL_TIMEx_HallSensor_Stop_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1030   .text.HAL_TIMEx_HallSensor_Stop_IT:0000000000000000 HAL_TIMEx_HallSensor_Stop_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1093   .text.HAL_TIMEx_HallSensor_Start_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1100   .text.HAL_TIMEx_HallSensor_Start_DMA:0000000000000000 HAL_TIMEx_HallSensor_Start_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1285   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000000000c4 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1293   .text.HAL_TIMEx_HallSensor_Stop_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1300   .text.HAL_TIMEx_HallSensor_Stop_DMA:0000000000000000 HAL_TIMEx_HallSensor_Stop_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1364   .text.HAL_TIMEx_OCN_Start:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1371   .text.HAL_TIMEx_OCN_Start:0000000000000000 HAL_TIMEx_OCN_Start
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1561   .text.HAL_TIMEx_OCN_Start:00000000000000d8 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1566   .text.HAL_TIMEx_OCN_Stop:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1573   .text.HAL_TIMEx_OCN_Stop:0000000000000000 HAL_TIMEx_OCN_Stop
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1668   .text.HAL_TIMEx_OCN_Start_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1675   .text.HAL_TIMEx_OCN_Start_IT:0000000000000000 HAL_TIMEx_OCN_Start_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1910   .text.HAL_TIMEx_OCN_Start_IT:0000000000000114 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1915   .text.HAL_TIMEx_OCN_Stop_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:1922   .text.HAL_TIMEx_OCN_Stop_IT:0000000000000000 HAL_TIMEx_OCN_Stop_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2072   .text.HAL_TIMEx_OCN_Start_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2079   .text.HAL_TIMEx_OCN_Start_DMA:0000000000000000 HAL_TIMEx_OCN_Start_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2479   .text.HAL_TIMEx_OCN_Start_DMA:00000000000001e4 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2487   .text.HAL_TIMEx_OCN_Stop_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2494   .text.HAL_TIMEx_OCN_Stop_DMA:0000000000000000 HAL_TIMEx_OCN_Stop_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2643   .text.HAL_TIMEx_PWMN_Start:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2650   .text.HAL_TIMEx_PWMN_Start:0000000000000000 HAL_TIMEx_PWMN_Start
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2840   .text.HAL_TIMEx_PWMN_Start:00000000000000d8 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2845   .text.HAL_TIMEx_PWMN_Stop:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2852   .text.HAL_TIMEx_PWMN_Stop:0000000000000000 HAL_TIMEx_PWMN_Stop
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2947   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:2954   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000000 HAL_TIMEx_PWMN_Start_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3189   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000114 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3194   .text.HAL_TIMEx_PWMN_Stop_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3201   .text.HAL_TIMEx_PWMN_Stop_IT:0000000000000000 HAL_TIMEx_PWMN_Stop_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3351   .text.HAL_TIMEx_PWMN_Start_DMA:0000000000000000 $t
-ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s 			page 164
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:16     .text.TIM_CCxNChannelCmd:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:23     .text.TIM_CCxNChannelCmd:0000000000000000 TIM_CCxNChannelCmd
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:72     .text.TIM_DMAErrorCCxN:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:78     .text.TIM_DMAErrorCCxN:0000000000000000 TIM_DMAErrorCCxN
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:158    .text.TIM_DMADelayPulseNCplt:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:164    .text.TIM_DMADelayPulseNCplt:0000000000000000 TIM_DMADelayPulseNCplt
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:284    .text.HAL_TIMEx_HallSensor_MspInit:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:291    .text.HAL_TIMEx_HallSensor_MspInit:0000000000000000 HAL_TIMEx_HallSensor_MspInit
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:306    .text.HAL_TIMEx_HallSensor_Init:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:313    .text.HAL_TIMEx_HallSensor_Init:0000000000000000 HAL_TIMEx_HallSensor_Init
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:519    .text.HAL_TIMEx_HallSensor_MspDeInit:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:526    .text.HAL_TIMEx_HallSensor_MspDeInit:0000000000000000 HAL_TIMEx_HallSensor_MspDeInit
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:541    .text.HAL_TIMEx_HallSensor_DeInit:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:548    .text.HAL_TIMEx_HallSensor_DeInit:0000000000000000 HAL_TIMEx_HallSensor_DeInit
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:616    .text.HAL_TIMEx_HallSensor_Start:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:623    .text.HAL_TIMEx_HallSensor_Start:0000000000000000 HAL_TIMEx_HallSensor_Start
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:778    .text.HAL_TIMEx_HallSensor_Start:000000000000009c $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:783    .text.HAL_TIMEx_HallSensor_Stop:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:790    .text.HAL_TIMEx_HallSensor_Stop:0000000000000000 HAL_TIMEx_HallSensor_Stop
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:848    .text.HAL_TIMEx_HallSensor_Start_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:855    .text.HAL_TIMEx_HallSensor_Start_IT:0000000000000000 HAL_TIMEx_HallSensor_Start_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1018   .text.HAL_TIMEx_HallSensor_Start_IT:00000000000000a8 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1023   .text.HAL_TIMEx_HallSensor_Stop_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1030   .text.HAL_TIMEx_HallSensor_Stop_IT:0000000000000000 HAL_TIMEx_HallSensor_Stop_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1093   .text.HAL_TIMEx_HallSensor_Start_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1100   .text.HAL_TIMEx_HallSensor_Start_DMA:0000000000000000 HAL_TIMEx_HallSensor_Start_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1285   .text.HAL_TIMEx_HallSensor_Start_DMA:00000000000000c4 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1293   .text.HAL_TIMEx_HallSensor_Stop_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1300   .text.HAL_TIMEx_HallSensor_Stop_DMA:0000000000000000 HAL_TIMEx_HallSensor_Stop_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1364   .text.HAL_TIMEx_OCN_Start:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1371   .text.HAL_TIMEx_OCN_Start:0000000000000000 HAL_TIMEx_OCN_Start
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1561   .text.HAL_TIMEx_OCN_Start:00000000000000d8 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1566   .text.HAL_TIMEx_OCN_Stop:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1573   .text.HAL_TIMEx_OCN_Stop:0000000000000000 HAL_TIMEx_OCN_Stop
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1668   .text.HAL_TIMEx_OCN_Start_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1675   .text.HAL_TIMEx_OCN_Start_IT:0000000000000000 HAL_TIMEx_OCN_Start_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1910   .text.HAL_TIMEx_OCN_Start_IT:0000000000000114 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1915   .text.HAL_TIMEx_OCN_Stop_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:1922   .text.HAL_TIMEx_OCN_Stop_IT:0000000000000000 HAL_TIMEx_OCN_Stop_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2072   .text.HAL_TIMEx_OCN_Start_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2079   .text.HAL_TIMEx_OCN_Start_DMA:0000000000000000 HAL_TIMEx_OCN_Start_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2479   .text.HAL_TIMEx_OCN_Start_DMA:00000000000001e4 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2487   .text.HAL_TIMEx_OCN_Stop_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2494   .text.HAL_TIMEx_OCN_Stop_DMA:0000000000000000 HAL_TIMEx_OCN_Stop_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2643   .text.HAL_TIMEx_PWMN_Start:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2650   .text.HAL_TIMEx_PWMN_Start:0000000000000000 HAL_TIMEx_PWMN_Start
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2840   .text.HAL_TIMEx_PWMN_Start:00000000000000d8 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2845   .text.HAL_TIMEx_PWMN_Stop:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2852   .text.HAL_TIMEx_PWMN_Stop:0000000000000000 HAL_TIMEx_PWMN_Stop
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2947   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:2954   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000000 HAL_TIMEx_PWMN_Start_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3189   .text.HAL_TIMEx_PWMN_Start_IT:0000000000000114 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3194   .text.HAL_TIMEx_PWMN_Stop_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3201   .text.HAL_TIMEx_PWMN_Stop_IT:0000000000000000 HAL_TIMEx_PWMN_Stop_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3351   .text.HAL_TIMEx_PWMN_Start_DMA:0000000000000000 $t
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s 			page 164
 
 
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3358   .text.HAL_TIMEx_PWMN_Start_DMA:0000000000000000 HAL_TIMEx_PWMN_Start_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3758   .text.HAL_TIMEx_PWMN_Start_DMA:00000000000001e4 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3766   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3773   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000000000000 HAL_TIMEx_PWMN_Stop_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3922   .text.HAL_TIMEx_OnePulseN_Start:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:3929   .text.HAL_TIMEx_OnePulseN_Start:0000000000000000 HAL_TIMEx_OnePulseN_Start
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4111   .text.HAL_TIMEx_OnePulseN_Stop:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4118   .text.HAL_TIMEx_OnePulseN_Stop:0000000000000000 HAL_TIMEx_OnePulseN_Stop
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4252   .text.HAL_TIMEx_OnePulseN_Start_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4259   .text.HAL_TIMEx_OnePulseN_Start_IT:0000000000000000 HAL_TIMEx_OnePulseN_Start_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4456   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4463   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000000000000000 HAL_TIMEx_OnePulseN_Stop_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4607   .text.HAL_TIMEx_ConfigCommutEvent:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4614   .text.HAL_TIMEx_ConfigCommutEvent:0000000000000000 HAL_TIMEx_ConfigCommutEvent
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4725   .text.HAL_TIMEx_ConfigCommutEvent_IT:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4732   .text.HAL_TIMEx_ConfigCommutEvent_IT:0000000000000000 HAL_TIMEx_ConfigCommutEvent_IT
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4843   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4850   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000000 HAL_TIMEx_ConfigCommutEvent_DMA
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4978   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000084 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5289   .text.TIMEx_DMACommutationCplt:0000000000000000 TIMEx_DMACommutationCplt
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5348   .text.TIMEx_DMACommutationHalfCplt:0000000000000000 TIMEx_DMACommutationHalfCplt
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4985   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:4992   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 HAL_TIMEx_MasterConfigSynchronization
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5112   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000064 $d
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5117   .text.HAL_TIMEx_ConfigBreakDeadTime:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5124   .text.HAL_TIMEx_ConfigBreakDeadTime:0000000000000000 HAL_TIMEx_ConfigBreakDeadTime
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5233   .text.HAL_TIMEx_RemapConfig:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5240   .text.HAL_TIMEx_RemapConfig:0000000000000000 HAL_TIMEx_RemapConfig
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5260   .text.HAL_TIMEx_CommutCallback:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5267   .text.HAL_TIMEx_CommutCallback:0000000000000000 HAL_TIMEx_CommutCallback
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5282   .text.TIMEx_DMACommutationCplt:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5319   .text.HAL_TIMEx_CommutHalfCpltCallback:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5326   .text.HAL_TIMEx_CommutHalfCpltCallback:0000000000000000 HAL_TIMEx_CommutHalfCpltCallback
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5341   .text.TIMEx_DMACommutationHalfCplt:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5378   .text.HAL_TIMEx_BreakCallback:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5385   .text.HAL_TIMEx_BreakCallback:0000000000000000 HAL_TIMEx_BreakCallback
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5400   .text.HAL_TIMEx_HallSensor_GetState:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5407   .text.HAL_TIMEx_HallSensor_GetState:0000000000000000 HAL_TIMEx_HallSensor_GetState
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5425   .text.HAL_TIMEx_GetChannelNState:0000000000000000 $t
-C:\Users\MAGIST~1\AppData\Local\Temp\ccBvVcPs.s:5432   .text.HAL_TIMEx_GetChannelNState:0000000000000000 HAL_TIMEx_GetChannelNState
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3358   .text.HAL_TIMEx_PWMN_Start_DMA:0000000000000000 HAL_TIMEx_PWMN_Start_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3758   .text.HAL_TIMEx_PWMN_Start_DMA:00000000000001e4 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3766   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3773   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000000000000 HAL_TIMEx_PWMN_Stop_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3922   .text.HAL_TIMEx_OnePulseN_Start:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:3929   .text.HAL_TIMEx_OnePulseN_Start:0000000000000000 HAL_TIMEx_OnePulseN_Start
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4111   .text.HAL_TIMEx_OnePulseN_Stop:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4118   .text.HAL_TIMEx_OnePulseN_Stop:0000000000000000 HAL_TIMEx_OnePulseN_Stop
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4252   .text.HAL_TIMEx_OnePulseN_Start_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4259   .text.HAL_TIMEx_OnePulseN_Start_IT:0000000000000000 HAL_TIMEx_OnePulseN_Start_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4456   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4463   .text.HAL_TIMEx_OnePulseN_Stop_IT:0000000000000000 HAL_TIMEx_OnePulseN_Stop_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4607   .text.HAL_TIMEx_ConfigCommutEvent:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4614   .text.HAL_TIMEx_ConfigCommutEvent:0000000000000000 HAL_TIMEx_ConfigCommutEvent
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4725   .text.HAL_TIMEx_ConfigCommutEvent_IT:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4732   .text.HAL_TIMEx_ConfigCommutEvent_IT:0000000000000000 HAL_TIMEx_ConfigCommutEvent_IT
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4843   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4850   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000000 HAL_TIMEx_ConfigCommutEvent_DMA
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4978   .text.HAL_TIMEx_ConfigCommutEvent_DMA:0000000000000084 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5289   .text.TIMEx_DMACommutationCplt:0000000000000000 TIMEx_DMACommutationCplt
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5348   .text.TIMEx_DMACommutationHalfCplt:0000000000000000 TIMEx_DMACommutationHalfCplt
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4985   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:4992   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000000 HAL_TIMEx_MasterConfigSynchronization
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5112   .text.HAL_TIMEx_MasterConfigSynchronization:0000000000000064 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5117   .text.HAL_TIMEx_ConfigBreakDeadTime:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5124   .text.HAL_TIMEx_ConfigBreakDeadTime:0000000000000000 HAL_TIMEx_ConfigBreakDeadTime
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5233   .text.HAL_TIMEx_RemapConfig:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5240   .text.HAL_TIMEx_RemapConfig:0000000000000000 HAL_TIMEx_RemapConfig
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5260   .text.HAL_TIMEx_CommutCallback:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5267   .text.HAL_TIMEx_CommutCallback:0000000000000000 HAL_TIMEx_CommutCallback
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5282   .text.TIMEx_DMACommutationCplt:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5319   .text.HAL_TIMEx_CommutHalfCpltCallback:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5326   .text.HAL_TIMEx_CommutHalfCpltCallback:0000000000000000 HAL_TIMEx_CommutHalfCpltCallback
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5341   .text.TIMEx_DMACommutationHalfCplt:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5378   .text.HAL_TIMEx_BreakCallback:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5385   .text.HAL_TIMEx_BreakCallback:0000000000000000 HAL_TIMEx_BreakCallback
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5400   .text.HAL_TIMEx_HallSensor_GetState:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5407   .text.HAL_TIMEx_HallSensor_GetState:0000000000000000 HAL_TIMEx_HallSensor_GetState
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5425   .text.HAL_TIMEx_GetChannelNState:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccJom6ID.s:5432   .text.HAL_TIMEx_GetChannelNState:0000000000000000 HAL_TIMEx_GetChannelNState
 
 UNDEFINED SYMBOLS
 HAL_TIM_ErrorCallback

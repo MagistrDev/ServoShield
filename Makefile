@@ -38,6 +38,7 @@ BUILD_DIR = build
 C_SOURCES =  \
 Src/main.c \
 Src/stm32f1xx_it.c \
+Src/sub_func.c \
 Src/system_stm32f1xx.c \
 Src/stm32f1xx_hal_msp.c \
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c \

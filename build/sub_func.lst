@@ -1,0 +1,214 @@
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"sub_func.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.sort_time,"ax",%progbits
+  16              		.align	1
+  17              		.global	sort_time
+  18              		.arch armv7-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	sort_time:
+  25              	.LFB65:
+  26              		.file 1 "Src/sub_func.c"
+   1:Src/sub_func.c **** #include "main.h"
+   2:Src/sub_func.c **** 
+   3:Src/sub_func.c **** extern unsigned short	time[];
+   4:Src/sub_func.c **** extern unsigned short	servo[];
+   5:Src/sub_func.c **** 
+   6:Src/sub_func.c **** void	sort_time(void)
+   7:Src/sub_func.c **** {
+  27              		.loc 1 7 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              		@ link register save eliminated.
+  32 0000 30B4     		push	{r4, r5}
+  33              	.LCFI0:
+  34              		.cfi_def_cfa_offset 8
+  35              		.cfi_offset 4, -8
+  36              		.cfi_offset 5, -4
+   8:Src/sub_func.c **** 	static unsigned int	c;
+  37              		.loc 1 8 2 view .LVU1
+   9:Src/sub_func.c **** 	unsigned int sub;
+  38              		.loc 1 9 2 view .LVU2
+  10:Src/sub_func.c **** 
+  11:Src/sub_func.c **** 	sub = (c) ? 0x2000: 0x20000000;
+  39              		.loc 1 11 2 view .LVU3
+  40              		.loc 1 11 12 is_stmt 0 view .LVU4
+  41 0002 154B     		ldr	r3, .L11
+  42 0004 1B68     		ldr	r3, [r3]
+  43              		.loc 1 11 20 view .LVU5
+  44 0006 4BB1     		cbz	r3, .L8
+  45 0008 4FF40051 		mov	r1, #8192
+  46              	.L2:
+  47              	.LVL0:
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s 			page 2
+
+
+  12:Src/sub_func.c **** 	GPIOC->BSRR = sub;
+  48              		.loc 1 12 2 is_stmt 1 discriminator 4 view .LVU6
+  49              		.loc 1 12 14 is_stmt 0 discriminator 4 view .LVU7
+  50 000c 134A     		ldr	r2, .L11+4
+  51 000e 1161     		str	r1, [r2, #16]
+  13:Src/sub_func.c **** 	c ^= 1;
+  52              		.loc 1 13 2 is_stmt 1 discriminator 4 view .LVU8
+  53              		.loc 1 13 4 is_stmt 0 discriminator 4 view .LVU9
+  54 0010 83F00103 		eor	r3, r3, #1
+  55 0014 104A     		ldr	r2, .L11
+  56 0016 1360     		str	r3, [r2]
+  14:Src/sub_func.c **** 
+  15:Src/sub_func.c **** 	unsigned short key;
+  57              		.loc 1 15 2 is_stmt 1 discriminator 4 view .LVU10
+  16:Src/sub_func.c **** 	int i,j;
+  58              		.loc 1 16 2 discriminator 4 view .LVU11
+  17:Src/sub_func.c **** 	for(j = 1; j < 25; j++)
+  59              		.loc 1 17 2 discriminator 4 view .LVU12
+  60              	.LVL1:
+  61              		.loc 1 17 8 is_stmt 0 discriminator 4 view .LVU13
+  62 0018 0125     		movs	r5, #1
+  63              		.loc 1 17 2 discriminator 4 view .LVU14
+  64 001a 13E0     		b	.L3
+  65              	.LVL2:
+  66              	.L8:
+  11:Src/sub_func.c **** 	GPIOC->BSRR = sub;
+  67              		.loc 1 11 20 view .LVU15
+  68 001c 4FF00051 		mov	r1, #536870912
+  69 0020 F4E7     		b	.L2
+  70              	.LVL3:
+  71              	.L6:
+  18:Src/sub_func.c **** 	{
+  19:Src/sub_func.c **** 		key = servo[j];
+  20:Src/sub_func.c **** 		i = j - 1;
+  21:Src/sub_func.c **** 		while (i >= 0 && servo[i] > key)
+  22:Src/sub_func.c **** 		{
+  23:Src/sub_func.c **** 			servo[i+1] = servo[i];
+  72              		.loc 1 23 4 is_stmt 1 view .LVU16
+  73              		.loc 1 23 11 is_stmt 0 view .LVU17
+  74 0022 581C     		adds	r0, r3, #1
+  75              		.loc 1 23 15 view .LVU18
+  76 0024 0E49     		ldr	r1, .L11+8
+  77 0026 21F81020 		strh	r2, [r1, r0, lsl #1]	@ movhi
+  24:Src/sub_func.c **** 			i--;
+  78              		.loc 1 24 4 is_stmt 1 view .LVU19
+  79              		.loc 1 24 5 is_stmt 0 view .LVU20
+  80 002a 013B     		subs	r3, r3, #1
+  81              	.LVL4:
+  82              	.L4:
+  21:Src/sub_func.c **** 		{
+  83              		.loc 1 21 9 view .LVU21
+  84 002c 002B     		cmp	r3, #0
+  85 002e 04DB     		blt	.L5
+  21:Src/sub_func.c **** 		{
+  86              		.loc 1 21 25 discriminator 1 view .LVU22
+  87 0030 0B4A     		ldr	r2, .L11+8
+  88 0032 32F81320 		ldrh	r2, [r2, r3, lsl #1]
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s 			page 3
+
+
+  21:Src/sub_func.c **** 		{
+  89              		.loc 1 21 17 discriminator 1 view .LVU23
+  90 0036 A242     		cmp	r2, r4
+  91 0038 F3D8     		bhi	.L6
+  92              	.L5:
+  25:Src/sub_func.c **** 		}
+  26:Src/sub_func.c **** 		servo[i+1] = key;
+  93              		.loc 1 26 3 is_stmt 1 discriminator 2 view .LVU24
+  94              		.loc 1 26 10 is_stmt 0 discriminator 2 view .LVU25
+  95 003a 0133     		adds	r3, r3, #1
+  96              	.LVL5:
+  97              		.loc 1 26 14 discriminator 2 view .LVU26
+  98 003c 084A     		ldr	r2, .L11+8
+  99 003e 22F81340 		strh	r4, [r2, r3, lsl #1]	@ movhi
+  17:Src/sub_func.c **** 	{
+ 100              		.loc 1 17 22 discriminator 2 view .LVU27
+ 101 0042 0135     		adds	r5, r5, #1
+ 102              	.LVL6:
+ 103              	.L3:
+  17:Src/sub_func.c **** 	{
+ 104              		.loc 1 17 2 discriminator 1 view .LVU28
+ 105 0044 182D     		cmp	r5, #24
+ 106 0046 04DC     		bgt	.L10
+  19:Src/sub_func.c **** 		i = j - 1;
+ 107              		.loc 1 19 3 is_stmt 1 view .LVU29
+  19:Src/sub_func.c **** 		i = j - 1;
+ 108              		.loc 1 19 7 is_stmt 0 view .LVU30
+ 109 0048 054B     		ldr	r3, .L11+8
+ 110 004a 33F81540 		ldrh	r4, [r3, r5, lsl #1]
+ 111              	.LVL7:
+  20:Src/sub_func.c **** 		while (i >= 0 && servo[i] > key)
+ 112              		.loc 1 20 3 is_stmt 1 view .LVU31
+  20:Src/sub_func.c **** 		while (i >= 0 && servo[i] > key)
+ 113              		.loc 1 20 5 is_stmt 0 view .LVU32
+ 114 004e 6B1E     		subs	r3, r5, #1
+ 115              	.LVL8:
+  21:Src/sub_func.c **** 		{
+ 116              		.loc 1 21 3 is_stmt 1 view .LVU33
+  21:Src/sub_func.c **** 		{
+ 117              		.loc 1 21 9 is_stmt 0 view .LVU34
+ 118 0050 ECE7     		b	.L4
+ 119              	.LVL9:
+ 120              	.L10:
+  27:Src/sub_func.c **** 	}
+  28:Src/sub_func.c **** }...
+ 121              		.loc 1 28 1 view .LVU35
+ 122 0052 30BC     		pop	{r4, r5}
+ 123              	.LCFI1:
+ 124              		.cfi_restore 5
+ 125              		.cfi_restore 4
+ 126              		.cfi_def_cfa_offset 0
+ 127              	.LVL10:
+ 128              		.loc 1 28 1 view .LVU36
+ 129 0054 7047     		bx	lr
+ 130              	.L12:
+ 131 0056 00BF     		.align	2
+ 132              	.L11:
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s 			page 4
+
+
+ 133 0058 00000000 		.word	.LANCHOR0
+ 134 005c 00100140 		.word	1073811456
+ 135 0060 00000000 		.word	servo
+ 136              		.cfi_endproc
+ 137              	.LFE65:
+ 139              		.section	.bss.c.6521,"aw",%nobits
+ 140              		.align	2
+ 141              		.set	.LANCHOR0,. + 0
+ 144              	c.6521:
+ 145 0000 00000000 		.space	4
+ 146              		.text
+ 147              	.Letext0:
+ 148              		.file 2 "c:\\mcu\\toolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 149              		.file 3 "c:\\mcu\\toolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 150              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
+ 151              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
+ 152              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
+ 153              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ARM GAS  C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s 			page 5
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 sub_func.c
+C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s:16     .text.sort_time:0000000000000000 $t
+C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s:24     .text.sort_time:0000000000000000 sort_time
+C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s:133    .text.sort_time:0000000000000058 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s:140    .bss.c.6521:0000000000000000 $d
+C:\Users\MAGIST~1\AppData\Local\Temp\ccBPIvWZ.s:144    .bss.c.6521:0000000000000000 c.6521
+
+UNDEFINED SYMBOLS
+servo
